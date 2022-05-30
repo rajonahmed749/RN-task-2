@@ -24,7 +24,7 @@ export default function Details() {
 
           <View style={{ backgroundColor: colors.white, paddingTop: 50}}>
             <Pressable
-              onPress={() => navigation.navigate('Details')}
+              onPress={() => alert('Ordered will be later')}
               style={styles.button}
             >
               <Text style={{ color: colors.black, textAlign: 'center' }}>
